@@ -1,3 +1,9 @@
+REQUIRES:
+JQuery 1.5.1
+
+
+
+DESCRIPTION:
 A very simple carousel plugin
 
 <div id='my-carousel'>
@@ -14,12 +20,14 @@ A very simple carousel plugin
 	$('#my-carousel').carousel({width:400,duration:1000,delay:5000});
 </script>
 
-the carousel plugin takes 4 parameters
+PARAMETERS:
 width - width of the slides to be shown
 duration - how long to animate each slides transition
 delay - how long to wait between transitions
 timer - if you want to be able to manipulate the interval then you'll need to pass in a reference
 
+
+ADVICE:
 play
 abuse
 improve
