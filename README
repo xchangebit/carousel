@@ -1,0 +1,25 @@
+A very simple carousel plugin
+
+<div id='my-carousel'>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		....
+		<li>Item N</li>
+	</ul>
+</div>
+
+
+<script>
+	$('#my-carousel').carousel({width:400,duration:1000,delay:5000});
+</script>
+
+the carousel plugin takes 4 parameters
+width - width of the slides to be shown
+duration - how long to animate each slides transition
+delay - how long to wait between transitions
+timer - if you want to be able to manipulate the interval then you'll need to pass in a reference
+
+play
+abuse
+improve
