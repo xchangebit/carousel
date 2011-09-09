@@ -33,6 +33,7 @@
 					options.timer = window[err];
 				}
 				var screen = $(this).children();
+
 				var slides = screen.children();
 				
 				screen_width = 0;
